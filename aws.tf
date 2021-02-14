@@ -20,8 +20,3 @@ resource "aws_instance" "testterrafrom" {
     Name = "tomcat_container"
   }
 }
-resource "aws_security_group" "default" {
-  name        = "default"
-  description = "Allow TLS inbound traffic"
-  vpc_id      = "vpc-33f7f55b"
-}
