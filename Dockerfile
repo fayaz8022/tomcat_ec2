@@ -1,4 +1,4 @@
 FROM  tomcat
-EXPOSE 8080
+EXPOSE 8085
 COPY  **/*.war
 CMD ["java","-jar", "/*.war"]
